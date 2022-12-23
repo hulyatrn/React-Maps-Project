@@ -31,3 +31,45 @@ header ul li a {
   width: 21rem;
   margin: auto;
 }
+
+@media only screen and (max-width: 640px) {
+  header {
+    display: block !important;
+  }
+  header .img-logo {
+    margin-left: 0 !important;
+    display: block !important;
+    display: none !important;
+  }
+  header ul {
+    justify-content: center;
+  }
+  .covid-container img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .card {
+    margin: 0;
+    width: 100%;
+  }
+  .card-container-div {
+    padding-top: 0 !important;
+    font-size: 10px;
+    background-color: none !important;
+  }
+  .card-body {
+    padding: 0 !important;
+  }
+  .list-group-item {
+    padding: 0 !important;
+  }
+  #myMap {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .card {
+    margin: 0;
+    width: 100%;
+  }
+}
